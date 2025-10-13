@@ -523,5 +523,6 @@ FodyWeavers.xsd
 
 # Users files
 .tasks
+CLAUDE.md
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,aspnetcore
