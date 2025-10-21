@@ -1,5 +1,6 @@
 using LaboratoryWork1.Tasks.Task1;
 using LaboratoryWork1.Tasks.Task2;
+using LaboratoryWork1.Tasks.Task3;
 
 namespace LaboratoryWork1;
 
@@ -10,6 +11,7 @@ class Program
         Console.WriteLine("Выберите задание:");
         Console.WriteLine("1 - Задание №1 (Метод половинного деления)");
         Console.WriteLine("2 - Задание №2 (Метод золотого сечения)");
+        Console.WriteLine("3 - Задание №3 (Метод чисел Фибоначчи)");
         Console.Write("Ваш выбор: ");
 
         var choice = Console.ReadLine();
@@ -27,6 +29,12 @@ class Program
                 var solver2 = new Task2Solver();
                 var result2 = solver2.Solve();
                 solver2.PrintResult(result2);
+                break;
+
+            case "3":
+                var solver3 = new Task3Solver();
+                var result3 = solver3.Solve();
+                solver3.PrintResult(result3);
                 break;
 
             default:
