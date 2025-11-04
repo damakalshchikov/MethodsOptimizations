@@ -43,7 +43,7 @@ public class GradientDescentConstantStep : IOptimizationMethod
             {
                 result.OptimalPoint = x;
                 result.OptimalValue = fValue;
-                result.IterationCount = k;
+                result.IterationCount = k + 1;
                 return result;
             }
 
@@ -52,7 +52,7 @@ public class GradientDescentConstantStep : IOptimizationMethod
             {
                 result.OptimalPoint = x;
                 result.OptimalValue = fValue;
-                result.IterationCount = k;
+                result.IterationCount = k + 1;
                 return result;
             }
 
