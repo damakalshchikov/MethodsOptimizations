@@ -2,7 +2,7 @@ using LaboratoryWork2.Models;
 
 namespace LaboratoryWork2.Core;
 
-// Метод градиентного спуска с постоянным (адаптивным) шагом
+// Метод градиентного спуска с постоянным шагом
 public class GradientDescentConstantStep : IOptimizationMethod
 {
     public OptimizationResult Optimize(IFunction function, double[] initialPoint, OptimizationParameters parameters)
