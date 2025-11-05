@@ -1,9 +1,11 @@
-﻿Methods.Optimizations
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratoryWork1", "LaboratoryWork1\LaboratoryWork1.csproj", "{BB7F2D72-8F22-4009-BE2D-BC3AA926400B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaboratoryWork2", "LaboratoryWork2\LaboratoryWork2.csproj", "{5661F94F-2789-4851-B8CA-923BDC97450A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{BB7F2D72-8F22-4009-BE2D-BC3AA926400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7F2D72-8F22-4009-BE2D-BC3AA926400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7F2D72-8F22-4009-BE2D-BC3AA926400B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5661F94F-2789-4851-B8CA-923BDC97450A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5661F94F-2789-4851-B8CA-923BDC97450A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5661F94F-2789-4851-B8CA-923BDC97450A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5661F94F-2789-4851-B8CA-923BDC97450A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
