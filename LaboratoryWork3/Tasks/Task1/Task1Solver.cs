@@ -38,11 +38,12 @@ public class Task1Solver
     public void PrintResult(OptimizationResult result)
     {
         Console.WriteLine("╔════════════════════════════════════════════════════════════════╗");
-        Console.WriteLine("║ Метод Ньютона для поиска минимума                              ║");
+        Console.WriteLine("║                          Метод Ньютона                         ║");
         Console.WriteLine("╚════════════════════════════════════════════════════════════════╝");
         Console.WriteLine();
 
-        Console.WriteLine("Параметры задачи:");
+        Console.WriteLine("Дано:");
+        Console.WriteLine("  f(x) = 6x₁² + 0,4x₁x₂ + 5x₂²");
         Console.WriteLine("  x⁰ = (1,5; 0,5)");
         Console.WriteLine("  ε₁ = 0,15");
         Console.WriteLine("  ε₂ = 0,2");

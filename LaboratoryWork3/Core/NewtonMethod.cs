@@ -17,7 +17,7 @@ public class NewtonMethod : IOptimizationMethod
         // Флаг для отслеживания выполнения условий в предыдущей итерации
         bool prevConditionsMetFlag = false;
 
-        // Шаг 1: задать x^0, параметры (делается в параметрах)
+        // Шаг 1: задать x^0, параметры
         // Шаг 2: положить k = 0
 
         while (true)
@@ -206,7 +206,6 @@ public class NewtonMethod : IOptimizationMethod
         }
     }
 
-    // Вычислить евклидову норму вектора
     private static double VectorNorm(double[] vector)
     {
         double sum = 0;
