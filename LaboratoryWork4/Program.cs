@@ -1,11 +1,6 @@
 ﻿using LaboratoryWork4.Tasks.Task1;
 using LaboratoryWork4.Tasks.Task2;
 
-Console.WriteLine("═══════════════════════════════════════════════════════════════");
-Console.WriteLine("     ЛАБОРАТОРНАЯ РАБОТА №4 - МЕТОДЫ УСЛОВНОЙ ОПТИМИЗАЦИИ     ");
-Console.WriteLine("═══════════════════════════════════════════════════════════════");
-Console.WriteLine();
-
 // Меню выбора метода
 Console.WriteLine("Выберите метод для запуска:");
 Console.WriteLine();
