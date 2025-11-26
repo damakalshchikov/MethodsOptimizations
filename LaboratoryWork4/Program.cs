@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LaboratoryWork4.Tasks.Task1;
+
+// Лабораторная работа №4 - Метод штрафов
+var solver = new Task1Solver();
+var result = solver.Solve();
+solver.PrintResult(result);
